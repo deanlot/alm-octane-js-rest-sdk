@@ -1,16 +1,23 @@
 {
-  "name": "@microfocus/alm-octane-js-rest-sdk",
-  "version": "12.60.10",
-  "description": "NodeJS wrapper for the Micro Focus ALM Octane API",
+  "bugs": {
+    "url": "https://github.com/MicroFocus/alm-octane-js-rest-sdk/issues"
+  },
   "main": "lib",
+  "name": "@microfocus/alm-octane-js-rest-sdk",
+  "apidoc": {
+    "name": "node-octane",
+    "title": "node-octane",
+    "template": {
+      "withCompare": false
+    }
+  },
+  "license": "Apache-2.0",
   "scripts": {
     "test": "standard && mocha --recursive",
     "test-jenkins": "JUNIT_REPORT_PATH=report.xml set NODE_ENV=test standard&& NODE_ENV=test mocha --recursive --colors --reporter mocha-jenkins-reporter"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MicroFocus/alm-octane-js-rest-sdk.git"
-  },
+  "version": "12.60.10",
+  "homepage": "https://github.com/MicroFocus/alm-octane-js-rest-sdk#readme",
   "keywords": [
     "octane",
     "microfocus",
@@ -18,39 +25,32 @@
     "sdk",
     "rest"
   ],
-  "contributors": [
-    "DaSheng Jian <da-sheng.jian@microfocus.com>",
-    "Spencer Bruce <spencer.bruce@microfocus.com"
-  ],
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "apidoc": "^0.17.6",
-    "jsdoc": "3.5.5",
-    "mocha": "^5.2.0",
-    "mocha-jenkins-reporter": "0.3.12",
-    "standard": "7.1.2"
+  "repository": {
+    "url": "git+https://github.com/MicroFocus/alm-octane-js-rest-sdk.git",
+    "type": "git"
   },
-  "dependencies": {
-    "command-line-args": "^4.0.7",
-    "debug": "3.1.0",
-    "pluralize": "3.0.0",
-    "read-config": "^2.0.0",
-    "request": "2.87.0"
-  },
-  "apidoc": {
-    "title": "node-octane",
-    "name": "node-octane",
-    "template": {
-      "withCompare": false
-    }
-  },
-  "bugs": {
-    "url": "https://github.com/MicroFocus/alm-octane-js-rest-sdk/issues"
-  },
-  "homepage": "https://github.com/MicroFocus/alm-octane-js-rest-sdk#readme",
+  "description": "NodeJS wrapper for the Micro Focus ALM Octane API",
   "directories": {
     "doc": "doc",
     "lib": "lib",
     "test": "test"
+  },
+  "contributors": [
+    "DaSheng Jian <da-sheng.jian@microfocus.com>",
+    "Spencer Bruce <spencer.bruce@microfocus.com"
+  ],
+  "dependencies": {
+    "debug": "3.2.7",
+    "request": "2.88.2",
+    "pluralize": "3.1.0",
+    "read-config": "2.0.0",
+    "command-line-args": "4.0.7"
+  },
+  "devDependencies": {
+    "jsdoc": "3.6.11",
+    "mocha": "5.2.0",
+    "apidoc": "0.55.0",
+    "standard": "7.1.2",
+    "mocha-jenkins-reporter": "0.4.8"
   }
 }
