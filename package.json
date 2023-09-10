@@ -40,17 +40,17 @@
     "Spencer Bruce <spencer.bruce@microfocus.com"
   ],
   "dependencies": {
-    "debug": "3.2.7",
+    "debug": "4.3.4",
     "request": "2.88.2",
-    "pluralize": "3.1.0",
+    "pluralize": "8.0.0",
     "read-config": "2.0.0",
-    "command-line-args": "4.0.7"
+    "command-line-args": "5.2.1"
   },
   "devDependencies": {
-    "jsdoc": "3.6.11",
-    "mocha": "5.2.0",
-    "apidoc": "0.55.0",
-    "standard": "7.1.2",
+    "jsdoc": "4.0.2",
+    "mocha": "10.2.0",
+    "apidoc": "1.2.0",
+    "standard": "17.1.0",
     "mocha-jenkins-reporter": "0.4.8"
   }
 }
