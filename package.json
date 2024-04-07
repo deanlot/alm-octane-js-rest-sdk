@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "jsdoc": "4.0.2",
-    "mocha": "10.2.0",
+    "mocha": "10.4.0",
     "apidoc": "1.2.0",
     "standard": "17.1.0",
     "mocha-jenkins-reporter": "0.4.8"
