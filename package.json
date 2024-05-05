@@ -47,7 +47,7 @@
     "command-line-args": "5.2.1"
   },
   "devDependencies": {
-    "jsdoc": "4.0.2",
+    "jsdoc": "4.0.3",
     "mocha": "10.4.0",
     "apidoc": "1.2.0",
     "standard": "17.1.0",
